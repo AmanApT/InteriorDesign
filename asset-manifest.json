@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/InteriorDesign/static/css/main.d228267b.css",
+    "main.js": "/InteriorDesign/static/js/main.b593f77c.js",
+    "static/media/background-image.jpg": "/InteriorDesign/static/media/background-image.0e8fdfbdc516a3aa8ed8.jpg",
+    "static/media/sampleImage22.jpg": "/InteriorDesign/static/media/sampleImage22.b69df0738d91bcb264f0.jpg",
+    "static/media/sampleImage1.jpg": "/InteriorDesign/static/media/sampleImage1.3cd5d7e7bc788f5e0dfe.jpg",
+    "static/media/construction.jpg": "/InteriorDesign/static/media/construction.58b4c82547fd3545fcbf.jpg",
+    "static/media/sampleImage2.jpg": "/InteriorDesign/static/media/sampleImage2.802c68c5cfe73b632d28.jpg",
+    "static/media/corporate.jpg": "/InteriorDesign/static/media/corporate.ebcf8aaf6288e07afc20.jpg",
+    "static/media/sampleImage3.jpg": "/InteriorDesign/static/media/sampleImage3.136fedbd84a4a35a7367.jpg",
+    "static/media/model2.jpg": "/InteriorDesign/static/media/model2.99b57c1928402bd7b216.jpg",
+    "static/media/bedroom.jpg": "/InteriorDesign/static/media/bedroom.3504f27357034812df56.jpg",
+    "static/media/modular kitchen.jpg": "/InteriorDesign/static/media/modular kitchen.6315ac4205ad85376ea1.jpg",
+    "static/media/model1.jpeg": "/InteriorDesign/static/media/model1.56639983fcbc8d4df45b.jpeg",
+    "static/media/office.jpg": "/InteriorDesign/static/media/office.e8737223e109808ff19c.jpg",
+    "static/media/servicesBackground.png": "/InteriorDesign/static/media/servicesBackground.6b0b9857152fd93881fb.png",
+    "static/media/model3.jpg": "/InteriorDesign/static/media/model3.f8c11a5bc1174e01d717.jpg",
+    "index.html": "/InteriorDesign/index.html",
+    "main.d228267b.css.map": "/InteriorDesign/static/css/main.d228267b.css.map",
+    "main.b593f77c.js.map": "/InteriorDesign/static/js/main.b593f77c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d228267b.css",
+    "static/js/main.b593f77c.js"
+  ]
+}
