@@ -1,0 +1,175 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Montserrat:wght@600&display=swap");
+
+body {
+  background-color: rgb(250, 249, 228);
+  font-family: Lora;
+  overflow-x: hidden;
+}
+
+@media only screen and (max-width: 390px) {
+  body {
+    overflow-x: hidden;
+    display: none;
+  }
+  .sampleText{
+    display: none;
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.homeText {
+  position: relative;
+  z-index: 50;
+  top: 20%;
+  left: 10.5%;
+  color: white;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 40px;
+  max-width: 40%;
+  margin-left: 2.5%;
+}
+
+.homePage {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 1),
+      rgba(255, 255, 255, 0)
+    ),
+    url("./images/background-image.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+}
+.breaker {
+  margin: auto;
+  margin-top: 2%;
+  width: 80%;
+  opacity: 0;
+}
+
+/* <!......................Nav Section......................!> */
+
+.link-underline {
+  border-bottom-width: 0;
+  background-image: linear-gradient(transparent, transparent),
+    linear-gradient(#fff, #fff);
+  background-size: 0 3px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.5s ease-in-out;
+  
+}
+
+.link-underline-black {
+    background-image: linear-gradient(transparent, transparent),
+    linear-gradient(rgb(254, 204, 42), rgb(254, 204, 42));
+  
+}
+
+.link-underline:hover {
+  background-size: 100% 3px;
+  background-position: 0 100%;
+  
+}
+
+/* <!......................Samples Section......................!> */
+.sampleText {
+  display: flex;
+  /* margin-top: auto; */
+  position: relative;
+  left: 950px;
+  bottom: 320px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.writtenText {
+  margin-right: 5px;
+  word-break: break-word;
+  max-width: 300px;
+}
+
+.transitionText {
+  position: relative;
+  top: 90px;
+  left: -270px;
+  color: red;
+}
+
+.carouselParent {
+  margin-top: 10%;
+  margin-bottom: 1%;
+  
+}
+.sampleHeader {
+  font-weight: 900;
+  text-align: center;
+  font-size: 40px;
+  margin: 4%;
+  margin-top: 15%;
+  padding-top: 2%;
+}
+.carouselChild {
+  display: inline-block;
+  width: 60%;
+  height: 60%;
+  margin-right: auto;
+  margin-left: 4%;
+  box-shadow: 0px 0px 46px 7px rgba(255,23,23,1);
+
+
+}
+
+.sampleBackground {
+  background: url("./images/servicesBackground.png");
+  background-color: rgb(248, 244, 180);
+  margin-bottom: 4%;
+}
+
+.carouselImages {
+  
+}
+
+/* !.............................Services Offered...............................! */
+
+.servicesOffered {
+  background: url("./images/servicesBackground.png");
+  background-size: cover;
+  width: 100%;
+  height: 120vh;
+  /* background-color: rgb(248, 244, 180); */
+  padding: 6%;
+}
+
+/* !.............................Features..............................! */
+
+.featuresBackground {
+  background-color: rgb(248, 244, 180);
+  padding-top: 1%;
+  margin-top: 10%;
+}
+
+/* ...............................Testimonials................................ */
+
+
+
+/* ...............................About Us................................ */
+
+.aboutUs {
+  background: url("./images/servicesBackground.png");
+  background-size: cover;
+  width: 100%;
+  height: 60vh;
+  /* background-color: rgb(252, 241, 241); */
+  background-color: rgb(248, 244, 180);
+  padding: 6%;
+}
