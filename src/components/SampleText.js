@@ -21,7 +21,7 @@ const SampleText = () => {
 
     //   "
         return (
-            <div className="sampleText" data-aos="slide-left" >
+            <div className="sampleText" data-aos="fade-up" >
             <div className='writtenText'>You can believe in us because we believe in</div>
             
                 <TextTransition className="transitionText" springConfig={presets.wobbly}>

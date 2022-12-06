@@ -12,7 +12,7 @@ function Samples() {
         <h1 className='sampleHeader'>Dream homes begin with dream designs.</h1>
       <Carousel className="carouselChild">
         <Carousel.Item interval={4000}>
-          <img className="d-block w-100 carouselImages"  src={image1} alt="First slide" />
+          <img className="d-block carouselImages"  src={image1} alt="First slide" />
           <Carousel.Caption>
             <h3>Designed Personal Apartment</h3>
           </Carousel.Caption>

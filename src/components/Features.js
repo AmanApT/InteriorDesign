@@ -4,7 +4,7 @@ import React from 'react'
 const Features = () => {
   return (
     <div id="features" className="featuresBackground" data-aos="slide-right">
-      <div class="container mt-24 mb-0 px-6 mx-auto">
+      <div class="container mt-24  mb-0 px-6 mx-auto">
         <section class="mb-32 text-gray-800">
           <div class="flex flex-wrap items-center">
             <div class="grow-0 shrink-0 basis-auto w-full lg:w-4/12 mb-6 md:mb-0 px-3">

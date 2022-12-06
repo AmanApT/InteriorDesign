@@ -9,7 +9,7 @@ import image6 from '../images/construction.jpg';
 export default function ServicesOffered() {
   return (
     <div id="services" className="servicesOffered" >
-       <p class="uppercase text-peach text-3xl -mt-10 mb-12 ml-96 font-bold">Services we offer for:</p>
+       <p class="uppercase text-peach text-3xl -mt-10 mb-12 lg:ml-96 sm:ml-60  font-bold">Services we offer for:</p>
       <div className="flex justify-around">
         <ServiceCards image={image1} content={"Beautiful Bedrooms"} description={"Your beautiful bedroom where you dream of future"}/>
         <ServiceCards image={image2} content={"Corporate Offices"} description={"Soothing offices design for max productivity"} />

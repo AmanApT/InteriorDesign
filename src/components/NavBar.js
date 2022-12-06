@@ -26,9 +26,9 @@ const scrollWidthOffset3 = (el) => {
     <BrowserRouter>
     <div id='#' className='navBar'>
       <header class="text-white-400 body-font fixed w-full z-50 bg-white ">
-        <div class="container mx-auto flex flex-wrap p-4 flex-col md:flex-row items-center">
+        <div class="container  flex mx-auto p-4 flex-col md:flex-row items-center">
           <Link to='#' class="flex title-font font-medium items-center text-black md:mb-0">
-            <span class="ml-28 font-medium text-xl">Design Your Dream</span>
+            <span class="lg:ml-28 font-medium text-xl">Design Your Dream</span>
             </Link>
           <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
              <Link to='#projects' scroll={el => scrollWidthOffset2(el)} class="mr-5 font-display max-w-sm text-l font-bold leading-tight">

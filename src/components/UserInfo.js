@@ -6,7 +6,7 @@ const UserInfo = () => {
     <section class="text-grey-600 body-font pt-10 -mt-14">
       {/* <div class="container px-16 py-20 mx-auto flex flex-wrap items-center"> */}
 
-      <div class="lg:w-80 md:w-1/2 bg-grey rounded-lg p-8 flex flex-col md:ml-auto w-full mr-20 md:mt-0">
+      <div class="lg:w-80 md:w-1/3 bg-grey rounded-lg p-8 flex flex-col md:ml-auto w-full mr-20 md:mt-0">
         <h2 class="text-grey-900 text-lg font-medium title-font mb-4">Book here</h2>
         <div class="relative mb-4">
           <label for="full-name" class="leading-7 text-md text-grey-600">Full Name</label>

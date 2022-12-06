@@ -6,7 +6,7 @@ const Testimonials = () => {
     return (
         <div  id="testimonials" className='testimonialBackground' data-aos="flip-up">
             <section class="text-gray-600 body-font">
-            <p class="uppercase text-peach text-2xl mt-4 ml-96 font-bold">We'll let our clients do the talking</p>
+            <p class="uppercase text-peach text-2xl mt-4 lg:ml-96 sm:ml-60 font-bold">We'll let our clients do the talking</p>
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-wrap -m-4">
       <div class="lg:w-1/3 lg:mb-0 mb-6">
